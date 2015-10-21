@@ -148,10 +148,6 @@ namespace JEOrbwalk
                             target = closestToMouse;
                         }
                     }
-                    else
-                    {
-                        target = me.BestAATarget();
-                    }
                     Orbwalking.Orbwalk(target, 500);
                 }
                 else
