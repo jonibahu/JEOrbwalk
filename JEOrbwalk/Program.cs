@@ -20,11 +20,11 @@ namespace JEOrbwalk
 
         private static Hero target;
 
-        private const Key ChaseKey = Key.Space;
+        private const Key ChaseKey = Key.Y;
 
-        private const Key FarmKey = Key.Z;
+        private const Key FarmKey = Key.V;
 
-        private const Key LastHitKey = Key.X;
+        private const Key LastHitKey = Key.T;
 
         private static ParticleEffect rangeDisplay;
         static void Main(string[] args)
